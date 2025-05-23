@@ -1,0 +1,37 @@
+===================================================================================
+SLURM Job ID:            12071909
+Submit time:             Fri May 16 06:06:33 BST 2025 (Unix Epoch time: 1747371993)
+Start time:              Fri May 16 06:06:34 BST 2025 (Unix Epoch time: 1747371994)
+No. nodes:               1
+No. tasks:               1
+Job name:                Poisson_OR
+Account:                 teaching
+QoS:                     teaching
+Partition (queue):       teaching
+Submit directory:        /users/isb20124/PH510/Assignment_4
+Script name:             /users/isb20124/PH510/Assignment_4/poisson_OR.sh
+Master node:             wee10
+Nodes used:              wee10
+Task distribution:       block:block
+===================================================================================
+
+Solution did not converge: 5000 Iterations
+Error = 0.041873485831315728
+Numerical Potentials = [(5, 5, '1.009'), (2.5, 2.5, '1.009'), (0.1, 2.5, '1'), (0.1, 0.1, '0.9999')] for all boundaries at 1V in uniform
+Numerical Potentials = [(5, 5, '0.0072'), (2.5, 2.5, '0.0044'), (0.1, 2.5, '-0.2713'), (0.1, 0.1, '-2.742e-5')] for T/B = 1V, L/R = -1V in uniform
+Numerical Potentials = [(5, 5, '0.0242'), (2.5, 2.5, '0.7274'), (0.1, 2.5, '1.939'), (0.1, 0.1, '1.308')] for T = 2V, B = 0V L = 2V & R = -4V in uniform
+Solution did not converge: 5000 Iterations
+Error = 0.046634703463431624
+Numerical Potentials = [(5, 5, '4.635'), (2.5, 2.5, '3.836'), (0.1, 2.5, '1.453'), (0.1, 0.1, '1.024')] for all boundaries at 1V in charge grad.
+Numerical Potentials = [(5, 5, '3.633'), (2.5, 2.5, '2.837'), (0.1, 2.5, '-0.7662'), (0.1, 0.1, '0.0236')] for T/B = 1V, L/R = -1V in charge grad.
+Numerical Potentials = [(5, 5, '3.65'), (2.5, 2.5, '3.56'), (0.1, 2.5, '2.121'), (0.1, 0.1, '1.023')] for T = 2V, B = 0V L = 2V & R = -4V in charge grad.
+Solution did not converge: 5000 Iterations
+Error = 0.04186916041225644
+Numerical Potentials = [(5, 5, '1.002'), (2.5, 2.5, '0.9991'), (0.1, 2.5, '1'), (0.1, 0.1, '0.9999')] for all boundaries at 1V in exponential grid
+Numerical Potentials = [(5, 5, '1.716e-8'), (2.5, 2.5, '1.789e-9'), (0.1, 2.5, '-0.948'), (0.1, 0.1, '2.902e-12')] for T/B = 1V, L/R = -1V in exponential grid
+Numerical Potentials = [(5, 5, '0.017'), (2.5, 2.5, '0.7229'), (0.1, 2.5, '1.939'), (0.1, 0.1, '0.9996')] for T = 2V, B = 0V L = 2V & R = -4V in exponential grid
+===================================================================================
+SLURM job 12071909 ended:     Fri May 16 06:25:53 BST 2025 (Unix Epoch time: 1747373153)
+This is an estimated end time using the 'date' command from node wee10.hpc.strath.ac.uk
+For accurate timings, use 'sacct -j 12071909 -X --format=Submit,Start,End,Elapsed'
+======================================================================================

@@ -1,0 +1,87 @@
+===================================================================================
+SLURM Job ID:            12080428
+Submit time:             Mon May 19 09:26:30 BST 2025 (Unix Epoch time: 1747643190)
+Start time:              Mon May 19 09:26:31 BST 2025 (Unix Epoch time: 1747643191)
+No. nodes:               1
+No. tasks:               8
+Job name:                Randomwalk
+Account:                 teaching
+QoS:                     teaching
+Partition (queue):       teaching
+Submit directory:        /users/isb20124/PH510/Assignment_4
+Script name:             /users/isb20124/PH510/Assignment_4/Randomwalk_8.sh
+Master node:             wee09
+Nodes used:              wee09
+Task distribution:       block:block
+===================================================================================
+
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+For (5.0, 5.0)cm
+Error for (5.0, 5.0)cm = 7.14553315626216e-06 
+With a uniform grid
+The potential with a uniform boundary = 1.0000
+The potential with a mixed boundary = -0.0027
+The potential with an complex boundary = -0.0052
+With a linear grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = -0.0027
+The potential with an exponential decay distribution = -0.0052
+With a exponentially decaying grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = -0.0027
+The potential with an exponential decay distribution = -0.0052
+
+For (2.5, 2.5)cm
+Error for (2.5, 2.5)cm = 6.508659910954226e-06
+With a uniform grid
+The potential with a uniform boundary = 1.0000
+The potential with a mixed boundary = 0.0023
+The potential with an complex boundary = 1.4596
+With a linear grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = 0.0023
+The potential with an exponential decay distribution = 1.4596
+With a exponentially decaying grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = 0.0023
+The potential with an exponential decay distribution = 1.4596
+
+For (0.1, 2.5)cm
+Error for (0.1, 2.5)cm = 2.9766382719951193e-06
+With a uniform grid
+The potential with a uniform boundary = 1.0000
+The potential with a mixed boundary = 0.9484
+The potential with an complex boundary = 1.9769
+With a linear grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = 0.9484
+The potential with an exponential decay distribution = 1.9769
+With a exponentially decaying grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = 0.9484
+The potential with an exponential decay distribution = 1.9769
+
+For (0.1, 0.1)cm
+Error for (0.1, 0.1)cm = 1.6735258306942155e-06
+With a uniform grid
+The potential with a uniform boundary = 1.0000
+The potential with a mixed boundary = -0.0052
+The potential with an complex boundary = 1.9989
+With a linear grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = -0.0052
+The potential with an exponential decay distribution = 1.9989
+With a exponentially decaying grid
+The potential with a uniform charge distribution = 1.0000
+The potential with a linear charge distribution = -0.0052
+The potential with an exponential decay distribution = 1.9989
+
+
+===================================================================================
+SLURM job 12080428 ended:     Mon May 19 10:52:44 BST 2025 (Unix Epoch time: 1747648364)
+This is an estimated end time using the 'date' command from node wee09.hpc.strath.ac.uk
+For accurate timings, use 'sacct -j 12080428 -X --format=Submit,Start,End,Elapsed'
+======================================================================================
